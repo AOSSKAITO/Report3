@@ -23,7 +23,6 @@ public class Hero extends LivingThing{
         setHitPoint(maximumHP);
         this.setAttack(attack);
         setDead2(false);
-        System.out.printf("%sのHPは%d。攻撃力は%dです。\n", name, maximumHP, attack);
     }
 
 
