@@ -10,7 +10,6 @@ package jp.ac.uryukyu.ie.e185722;
  */
 
 public class Hero extends LivingThing{
-
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
      * @param name ヒーロー名
@@ -19,10 +18,7 @@ public class Hero extends LivingThing{
      */
     public Hero (String name, int maximumHP, int attack) {
         super(name,maximumHP,attack);
-        this.setName(name);
-        setHitPoint(maximumHP);
-        this.setAttack(attack);
-        setDead2(false);
+
     }
 
 
